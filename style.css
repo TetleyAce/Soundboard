@@ -90,11 +90,11 @@ img.overlay{
 }
 
 @keyframes imgstart{
-    0%      {transform:rotate(0deg);margin-top:-300px;}
+    0%      {transform:rotate(0deg);margin-top:-20vh;}
     20%     {transform:rotate(360deg);margin-top:0px;}
     30%     {transform:rotate(360deg);margin-top:0px;}
     50%     {transform:rotate(0deg);margin-top:300px;}
-    100%    {margin-top:300px;}
+    100%    {margin-top:30vh;}
 }
 
 @keyframes divstart{
