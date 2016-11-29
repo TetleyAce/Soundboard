@@ -1,6 +1,17 @@
 function play1(){
-    var audio1 = document.getElementById("audio1");
-    audio1.play();
+    var x = Math.floor((Math.random() * 3) + 1);
+    if (x == 1) {
+        var audio1a = document.getElementById("audio1a");
+        audio1a.play();
+    }
+    if (x == 2) {
+        var audio1b = document.getElementById("audio1b");
+        audio1b.play();
+    }
+    if (x == 3) {
+        var audio1c = document.getElementById("audio1c");
+        audio1c.play();
+    }
 }
 function play2(){
     var audio2 = document.getElementById("audio2");
