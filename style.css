@@ -63,7 +63,7 @@ button:active:after {
 button:focus { outline:0; }
 .header{
     width:40vw;
-    height:27vw;
+    /* height:27vw; */
     padding:auto;
     margin:5vw;
     background-color:#fff;
@@ -148,6 +148,7 @@ div.ss{
     float:right;
     width:30vh;
     opacity:1;
+    margin-top:4vw;
 }
 
 @keyframes imgstart{
