@@ -9,7 +9,7 @@
 <!-- versionCode is optional and Android only -->
 
   <name>Student Soundboard</name>
-  <plugin name="org.li8.inappbrowser" spec="0.1" source="pgb" />
+  <plugin name="org.li8.inappbrowser" source="pgb" />
   <access origin="*" />
 
   <description>
