@@ -9,6 +9,11 @@
 <!-- versionCode is optional and Android only -->
 
   <name>Student Soundboard</name>
+    
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+    </feature>
+    
   <access origin="*" />
 
   <description>
