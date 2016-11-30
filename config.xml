@@ -12,7 +12,8 @@
   <name>Student Soundboard</name>
   <access origin="mailto:*" launch-external="yes" />
   <plugin name="cordova-plugin-whitelist" spec="1" />
-  <allow-intent href="mailto:*" />
+  <allow-intent href="mailto:*" />#
+  <allow-navigation href="*" />
 
   <description>
       A simple soundboard for Twynham Sixth Form.
