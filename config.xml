@@ -11,7 +11,7 @@
 
   <name>Student Soundboard</name>
   <access origin="*" />
-  <plugin name="org.li8.inappbrowser" spec="0.1" source="git" />
+  <plugin name="org.li8.inappbrowser" url="https://github.com/li8/cordova-plugin-inappbrowser.git" />
    
 
   <description>
