@@ -10,6 +10,8 @@
 
   <name>Student Soundboard</name>
   <access origin="*" />
+  <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+   
 
   <description>
       A simple soundboard for Twynham Sixth Form.
