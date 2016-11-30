@@ -26,4 +26,3 @@ function play4(){
     var audio4 = document.getElementById("audio4");
     audio4.play();
 }
- 
