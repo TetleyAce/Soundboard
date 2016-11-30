@@ -11,7 +11,7 @@
 
   <name>Student Soundboard</name>
   <access origin="*" />
-  <plugin name="InAppBrowser" value="org.apache.cordova.inappbrowser"/>
+  <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser"/>
    
 
   <description>
