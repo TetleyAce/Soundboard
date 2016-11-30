@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <widget xmlns   = "http://www.w3.org/ns/widgets"
-    xmlns:gap   = "http://oliverleigh.co.uk/sur/"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
     id          = "com.ssb.core"
     versionCode = "10"
@@ -11,7 +11,7 @@
 
   <name>Student Soundboard</name>
   <access origin="*" />
-  <plugin name="org.li8.inappbrowser" url="https://github.com/li8/cordova-plugin-inappbrowser.git" />
+  <plugin:gap name="cordova.plugin.inappbrowser" source="npm" />
    
 
   <description>
