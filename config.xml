@@ -11,7 +11,7 @@
 
   <name>Student Soundboard</name>
   <access origin="*" />
-  <plugin name="org.li8.inappbrowser" spec="0.1" source="pgb" />
+  <plugin name="org.li8.inappbrowser" spec="0.1" source="npm" />
    
 
   <description>
