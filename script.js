@@ -1,3 +1,7 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    window.open = cordova.InAppBrowser.open;
+}
 function play1(){
     var x = Math.floor((Math.random() * 3) + 1);
     if (x == 1) {
