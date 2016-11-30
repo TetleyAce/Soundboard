@@ -10,7 +10,7 @@
 <!-- versionCode is optional and Android only -->
 
   <name>Student Soundboard</name>
-  <access origin="*" />
+  <access origin="mailto:*" launch-external="yes" />
   <plugin name="cordova-plugin-whitelist" spec="1" />
   <allow-intent href="mailto:*" />
 
