@@ -11,7 +11,7 @@
 
   <name>Student Soundboard</name>
   <access origin="*" />
-  <plugin:gap name="cordova.plugin.inappbrowser" source="npm" />
+  <plugin name="cordova.plugin.inappbrowser" source="npm" />
    
 
   <description>
