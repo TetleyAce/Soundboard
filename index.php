@@ -6,23 +6,6 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <div class="overlay">
-            <div class="header overlayimg">
-                <img src="logo.png" class="overlay">
-                <div class="ss">Student<br>Soundboard</div>
-            </div>
-        </div>
-        
-        <button name="button" onclick="play1()">Shut Up Ryan</button>
-        <audio id="audio1a" src="sur1.mp3" ></audio>
-        <audio id="audio1b" src="sur2.mp3" ></audio>
-        <audio id="audio1c" src="sur3.mp3" ></audio>
-        <button name="button" onclick="play2()">How?</button>
-        <audio id="audio2" src="how.mp3" ></audio>
-        <button name="button" onclick="play3()">Its yer boi - skinny penis</button>
-        <audio id="audio3" src="skinny.mp3" ></audio>
-        <button name="button" onclick="window.open('http://oliverleigh.co.uk/surs/new.php', '_system');">Submit Audio Request</button>
-        
         <div class="header-submit">Submit Audio Request</div>
         <? if(!isset($_POST['submit'])){ ?>
         <form method="post">
@@ -52,7 +35,6 @@
         }
         
         ?>
-        <!-- http://oliverleigh.co.uk/sur/new.php
-        <a href="http://oliverleigh.co.uk" target="_blank" style="text-decoration:none;color:#fff;"><div class="footer">Application made by: <span style="color:#0000ff;"><b><u>Oliver Leigh</u></b></span> and Jordan Williams</div></a> -->
+        <!-- <a href="http://oliverleigh.co.uk" target="_blank" style="text-decoration:none;color:#fff;"><div class="footer">Application made by: <span style="color:#0000ff;"><b><u>Oliver Leigh</u></b></span> and Jordan Williams</div></a> -->
     </body>
 </doctype>
