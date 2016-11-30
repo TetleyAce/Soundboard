@@ -11,8 +11,8 @@
 
   <name>Student Soundboard</name>
   <access origin="*" />
-  <plugin name="cordova-plugin-inappbrowser" source="npm" />
-   
+  <plugin name="cordova-plugin-whitelist" spec="1" />
+  <allow-intent href="mailto:*" />
 
   <description>
       A simple soundboard for Twynham Sixth Form.
