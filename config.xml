@@ -9,14 +9,13 @@
 <!-- versionCode is optional and Android only -->
 
   <name>Student Soundboard</name>
-  <gap:plugin name="org.apache.cordova.inappbrowser">
   <access origin="*" />
 
   <description>
       A simple soundboard for Twynham Sixth Form.
   </description>
 
-  <author href="http://www.twynhamschool.com/" email="16262@twynhamschool.com">
+  <author href="http://www.oliverleigh.co.uk/" email="16262@twynhamschool.com">
       Oliver Leigh
   </author>
   
