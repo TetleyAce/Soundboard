@@ -2,6 +2,7 @@
 
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://oliverleigh.co.uk/sur/"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
     id          = "com.ssb.core"
     versionCode = "10"
     version     = "0.2.1" >
