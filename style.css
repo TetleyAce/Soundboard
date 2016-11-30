@@ -39,7 +39,7 @@ button:nth-of-type(odd){
 a{
     width:40vw;
     height:27vw;
-    padding: 9vw 0;
+    padding: 4.1vw 0;
     background-color:#000;
     display:inline;
     float:left;
@@ -48,7 +48,8 @@ a{
     border-radius:10vw 0 10vw 0;
     border:1.7vw solid #00ffff;
     font-family: 'Oswald', sans-serif;
-    color:#feffe2;
+    color:#ff1717;
+    font-weight:bold;
     letter-spacing:0.3vw;
     /* box-shadow: 2vw 2vw 50px 0.7vw #80ffff; */
     /* opacity:0.8; */
