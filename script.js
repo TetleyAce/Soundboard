@@ -3,7 +3,7 @@ document.addEventListener('deviceready', function () {
 }, false);
 function openEmail(){
     cordova.plugins.email.open({
-        app:     'mailto',
+        app:     'gmail',
         to:      'ssb.request.audio@gmail.com',
         subject: 'Test Sub',
         body:    'Test Text'
