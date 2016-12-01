@@ -1,4 +1,14 @@
-
+document.addEventListener('deviceready', function () {
+    // cordova.plugins.email is now available
+}, false);
+function openEmail(){
+    cordova.plugins.email.open({
+        app:     'mailto',
+        to:      'ssb.request.audio@gmail.com',
+        subject: 'Test Sub',
+        body:    'Test Text'
+    })
+}
 function play1(){
     var x = Math.floor((Math.random() * 3) + 1);
     if (x == 1) {
