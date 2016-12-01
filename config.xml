@@ -11,8 +11,9 @@
 
   <name>Student Soundboard</name>
   <access origin="mailto:*" launch-external="yes" />
+  <gap:plugin name="cordova-plugin-email-composer" version="0.8.3" source="npm" />
   <plugin name="cordova-plugin-whitelist" spec="1" />
-  <allow-intent href="mailto:*" />#
+  <allow-intent href="mailto:*" />
   <allow-navigation href="*" />
 
   <description>
